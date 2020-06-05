@@ -5,7 +5,7 @@ that uses npm module `styled-components`. It's based on GitHub project
 
 The demo component is entirely self-contained, including embedded 
 CSS styling. This paradigm is evocative of Vue's embedded
-out-of-the-box styling option. 
+styling option. 
 The component's source code below shows the added syntax.
 
 ````
