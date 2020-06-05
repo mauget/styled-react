@@ -1,3 +1,42 @@
+# React Styled Component Demo
+This React project's start page embeds a demo styled-component. 
+that uses npm module, `styled-components`. It's based on GitHub project
+[https://github.com/styled-components/styled-components](https://github.com/styled-components/styled-components).
+
+The demo component is entirely self-contained, including its 
+CSS styling. See component's source code for the added syntax.
+
+````
+import React from 'react';
+import styled from 'styled-components';
+
+export function StyledComponent() {
+    // Create a <Title> react component that renders an <h1> which is
+    // centered, palevioletred and sized at 1.5em
+    const Title = styled.h1`
+    font-size: 1.5rem;
+    text-align: center;
+    color: seagreen;
+    `;
+
+    // Create a <Wrapper> react component that renders a <section> with
+    // some padding and a papayawhip background
+    const Wrapper = styled.div`
+    padding: 4rem;
+    background: moccasin;
+    border: 6px solid red;
+    border-radius: 26px;
+    `;
+
+    // Use them like any other React component – except they're styled!
+    return <Wrapper>
+        <Title>This is a gaudy styled component!</Title>
+    </Wrapper>
+}
+````
+![./doc/styled-component-eg.png](./doc/styled-component-eg.png)
+
+-------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
