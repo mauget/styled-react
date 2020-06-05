@@ -2,25 +2,26 @@ import React from 'react';
 import styled from 'styled-components';
 
 export function StyledComponent() {
-    // Create a <Title> react component that renders an <h1> which is
-    // centered, palevioletred and sized at 1.5em
+    // A. Create a <Title> react component having its own style
     const Title = styled.h1`
-    font-size: 1.5rem;
-    text-align: center;
-    color: seagreen;
+        font-size: 2.5rem;
+        text-align: center;
+        text-shadow: 2px 2px red;
+        color: white;
+        font-family: 'Comic Sans MS', 'Comic Sans', cursive;
     `;
 
-    // Create a <Wrapper> react component that renders a <section> with
-    // some padding and a papayawhip background
-    const Wrapper = styled.div`
-    padding: 4rem;
-    background: moccasin;
-    border: 6px solid red;
-    border-radius: 26px;
+    // B. Create a <Wrapper> react component with embedded style
+    const Wrapper = styled.section`
+        padding: 1.5rem;
+        background: White;
+        background-image: linear-gradient(Blue, #d0d0d0);
+        border: 8px solid Red;
+        border-radius: 5.0rem;
     `;
 
-    // Use them like any other React component – except they're styled!
+    // C. Compose the pair like any React composition.
     return <Wrapper>
-        <Title>This is a gaudy styled component!</Title>
+        <Title>Clown-pants styled component</Title>
     </Wrapper>
 }
