@@ -1,11 +1,12 @@
 # React Styled Component Demo
-This React project's start page embeds a demo styled-component. 
-that uses npm module, `styled-components`. It's based on GitHub project
+This React project's start page embeds a demo styled-component 
+that uses npm module `styled-components`. It's based on GitHub project
 [https://github.com/styled-components/styled-components](https://github.com/styled-components/styled-components).
 
-The demo component is entirely self-contained, including its 
-CSS styling. This paradigm is reminiscent of Vue's embedded
-styling option. See component's source code for the added syntax.
+The demo component is entirely self-contained, including embedded 
+CSS styling. This paradigm is evocative of Vue's embedded
+out-of-the-box styling option. 
+The component's source code below shows the added syntax.
 
 ````
 export function StyledComponent() {
