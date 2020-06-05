@@ -3,6 +3,8 @@ This React project's start page embeds a demo styled-component
 that uses npm module `styled-components`. It's based on GitHub project
 [https://github.com/styled-components/styled-components](https://github.com/styled-components/styled-components).
 
+A reference: [https://mxstbr.blog/2016/11/styled-components-magic-explained/](https://mxstbr.blog/2016/11/styled-components-magic-explained/)
+
 The demo component is entirely self-contained, including embedded 
 CSS styling. This paradigm is evocative of Vue's embedded
 styling option. 
