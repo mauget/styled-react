@@ -10,7 +10,7 @@ CSS styling. This paradigm is evocative of Vue's embedded
 styling option. 
 The component's source code below shows the added syntax.
 
-````
+```javascript
 import React from 'react';
 import styled from 'styled-components';
 
@@ -38,7 +38,7 @@ export function StyledComponent() {
         <Title>Clown-pants styled component</Title>
     </Wrapper>
 }
-````
+```
 ![doc/styled-component-eg.png](doc/styled-component-eg.png)
 
 -------------
