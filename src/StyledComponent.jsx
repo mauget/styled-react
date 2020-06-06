@@ -19,7 +19,7 @@ const Wrapper = styled.section`
         border-radius: 5.0rem;
     `;
 
-export function StyledComponent() {
+export default function StyledComponent() {
     // C. Compose the pair like any React composition.
     return <Wrapper>
         <Title>Clown-pants styled component</Title>
